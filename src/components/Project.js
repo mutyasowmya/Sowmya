@@ -14,7 +14,7 @@ const Project = ({ item }) => {
       <p className="capitalize text-accent text-sm mb-3 text-white">{item.category}</p>
       <h3 className="text-2xl font-semibold capitalize mb-3 text-white">{item.name}</h3>
       <p className="text-base max-w-md text-white">{item.info}</p>
-      <p className="text-base max-w-md text-white">Tech Stack : {item.tech}</p>
+      
       <span style={{ marginTop: "10px" }}>
         {" "}
         <a href={item.github} target="_blank">
